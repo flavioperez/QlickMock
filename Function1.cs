@@ -21,15 +21,59 @@ namespace QlickMock
         {
             log.LogInformation("GetMockedTrelloReport called.");
 
-            string mockFile = Path.Combine(context.FunctionAppDirectory, "Data", "TrelloReport.json");
+            string jsonFile = GetFileNameWithExtensionIfApply(req.Query["jsonFile"]);
 
-            string allText = System.IO.File.ReadAllText(mockFile);
-            object jsonObject = JsonConvert.DeserializeObject(allText);
-            //return jsonObject;
+            if (string.IsNullOrEmpty(jsonFile))
+            {
+                string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+                dynamic data = JsonConvert.DeserializeObject(requestBody);
+                jsonFile = jsonFile ?? data?.report;
+            }
 
-            return jsonObject != null
-                ? (ActionResult)new OkObjectResult(jsonObject)
-                : new BadRequestObjectResult("Error reading Trello Report file.");
+            if (string.IsNullOrEmpty(jsonFile))
+            {
+                log.LogInformation("Returning bad request: invalid json report name.");
+                return new BadRequestObjectResult("Please pass [jsonFile] value on the query string or in the request body");
+            }
+
+            string mockFile = string.Empty;
+            string fileContent = string.Empty; 
+            try
+            {
+                mockFile = Path.Combine(context.FunctionAppDirectory, "Data", jsonFile);
+                fileContent = System.IO.File.ReadAllText(mockFile);
+            }
+            catch (Exception ex)
+            {
+                return new BadRequestObjectResult($"ERROR: [{mockFile}] not found.");
+            }
+
+            object jsonObject = null;
+
+            try
+            {
+                jsonObject = JsonConvert.DeserializeObject(fileContent);
+            }
+            catch (Exception)
+            {
+                return new BadRequestObjectResult($"ERROR: File content is not a invalid json structure.");
+            }
+
+            return (ActionResult)new OkObjectResult(jsonObject);
+        }
+
+        private static string GetFileNameWithExtensionIfApply(string fileName)
+        {
+            string withExt = fileName;
+
+            if (!string.IsNullOrEmpty(fileName))
+            {
+                if (!withExt.Trim().ToLower().EndsWith(".json"))
+                {
+                    withExt = withExt + ".json";
+                }
+            }
+            return withExt;
         }
     }
 }

@@ -1,0 +1,468 @@
+﻿[
+	{
+		"KPI": "K0001",
+		"KPI Name": "# Customer Satisfaction (CS)",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Yearly"
+	},
+	{
+		"KPI": "K0002",
+		"KPI Name": "% Customer Satisfaction increase after applying CS programs",
+		"Unit of Mesurements": "Percentage",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Yearly"
+	},
+	{
+		"KPI": "K0003",
+		"KPI Name": "# Visits or calls per current customer",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0004",
+		"KPI Name": "# Customer Complaints due to poor service or quality",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Decreasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "# Employees trained on technologies relevant to our service offering",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Month"
+	},
+	{
+		"KPI": "K0006",
+		"KPI Name": "$ Training/Professional Development budget",
+		"Unit of Mesurements": "Currency",
+		"Type of trend": "Within range",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0007",
+		"KPI Name": "# Offered New Services",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0008",
+		"KPI Name": "# Customers that use our new services",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0009",
+		"KPI Name": "% Sales increase",
+		"Unit of Mesurements": "Percentage",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Month"
+	},
+	{
+		"KPI": "K0010",
+		"KPI Name": "% Profit margin",
+		"Unit of Mesurements": "Percentage",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Month"
+	},
+	{
+		"KPI": "K0011",
+		"KPI Name": "# Patents and intellectual property as assets",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0012",
+		"KPI Name": "# New Strategic Customers",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0013",
+		"KPI Name": "# New Customers",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0014",
+		"KPI Name": "% Current Customers that grow compared to previous year",
+		"Unit of Mesurements": "Percentage",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0015",
+		"KPI Name": "# Trained Directors/Principals/Tech Leads to upsell",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0016",
+		"KPI Name": "# Active branding projects",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0017",
+		"KPI Name": "# Presentations tailored to vertical markets",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0018",
+		"KPI Name": "# Leads via Website",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Month"
+	},
+	{
+		"KPI": "K0019",
+		"KPI Name": "# Directors/Principals/Tech Leads trained   IPS Pitch",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0020",
+		"KPI Name": "% Employees trained on methodologies relevant to operational excellence",
+		"Unit of Mesurements": "Percentage",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0021",
+		"KPI Name": "% Employees trained on leadership skills",
+		"Unit of Mesurements": " customer service",
+		"Type of trend": " collaboration  relevant to operational excellence",
+		"FreQuarteruency": "Percentage"
+	},
+	{
+		"KPI": "K0022",
+		"KPI Name": "# Security incidents",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Decreasing",
+		"FreQuarteruency": "Month"
+	},
+	{
+		"KPI": "K0023",
+		"KPI Name": "% improvement GPTW results",
+		"Unit of Mesurements": "Percentage",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Yearly"
+	},
+	{
+		"KPI": "K0024",
+		"KPI Name": "# Score Work environment survey",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Yearly"
+	},
+	{
+		"KPI": "K0025",
+		"KPI Name": "% Turnover",
+		"Unit of Mesurements": "Percentage",
+		"Type of trend": "Decreasing",
+		"FreQuarteruency": "Month"
+	},
+	{
+		"KPI": "K0026",
+		"KPI Name": "# New & Improved  benefits",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0027",
+		"KPI Name": "# Anonymous complaints",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Decreasing",
+		"FreQuarteruency": "Month"
+	},
+	{
+		"KPI": "K0028",
+		"KPI Name": "# Infrastructure and Design  improvement initiatives",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0029",
+		"KPI Name": "# Social responsibility projects",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0030",
+		"KPI Name": "$ Budget for Social Responsibility",
+		"Unit of Mesurements": "Currency",
+		"Type of trend": "Within range",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "K0031",
+		"KPI Name": "# Employee Hours on social responsibility projects",
+		"Unit of Mesurements": "Number",
+		"Type of trend": "Increasing",
+		"FreQuarteruency": "Quarter"
+	},
+	{
+		"KPI": "ID-KPI",
+		"KPI Name": "Floor",
+		"Unit of Mesurements": "Threshold",
+		"Type of trend": "Target ",
+		"FreQuarteruency": "Ceiling "
+	},
+	{
+		"KPI": "K0001",
+		"KPI Name": "2",
+		"Unit of Mesurements": "3",
+		"Type of trend": "4",
+		"FreQuarteruency": "5"
+	},
+	{
+		"KPI": "K0002",
+		"KPI Name": "0",
+		"Unit of Mesurements": "0.07",
+		"Type of trend": "0.1",
+		"FreQuarteruency": "0.15"
+	},
+	{
+		"KPI": "K0003",
+		"KPI Name": "0",
+		"Unit of Mesurements": "0",
+		"Type of trend": "0",
+		"FreQuarteruency": "3"
+	},
+	{
+		"KPI": "K0003",
+		"KPI Name": "0",
+		"Unit of Mesurements": "1",
+		"Type of trend": "2",
+		"FreQuarteruency": "4"
+	},
+	{
+		"KPI": "K0003",
+		"KPI Name": "1",
+		"Unit of Mesurements": "2",
+		"Type of trend": "4",
+		"FreQuarteruency": "5"
+	},
+	{
+		"KPI": "K0003",
+		"KPI Name": "2",
+		"Unit of Mesurements": "4",
+		"Type of trend": "5",
+		"FreQuarteruency": "6"
+	},
+	{
+		"KPI": "K0004",
+		"KPI Name": "0",
+		"Unit of Mesurements": "0",
+		"Type of trend": "1",
+		"FreQuarteruency": "2"
+	},
+	{
+		"KPI": "K0004",
+		"KPI Name": "0",
+		"Unit of Mesurements": "2",
+		"Type of trend": "4",
+		"FreQuarteruency": "6"
+	},
+	{
+		"KPI": "K0004",
+		"KPI Name": "2",
+		"Unit of Mesurements": "6",
+		"Type of trend": "8",
+		"FreQuarteruency": "10"
+	},
+	{
+		"KPI": "K0004",
+		"KPI Name": "6",
+		"Unit of Mesurements": "10",
+		"Type of trend": "12",
+		"FreQuarteruency": "14"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "0",
+		"Unit of Mesurements": "0",
+		"Type of trend": "0",
+		"FreQuarteruency": "5"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "0",
+		"Unit of Mesurements": "0",
+		"Type of trend": "0",
+		"FreQuarteruency": "10"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "0",
+		"Unit of Mesurements": "0",
+		"Type of trend": "0",
+		"FreQuarteruency": "10"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "0",
+		"Unit of Mesurements": "5",
+		"Type of trend": "10",
+		"FreQuarteruency": "20"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "0",
+		"Unit of Mesurements": "10",
+		"Type of trend": "20",
+		"FreQuarteruency": "35"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "10",
+		"Unit of Mesurements": "20",
+		"Type of trend": "40",
+		"FreQuarteruency": "50"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "10",
+		"Unit of Mesurements": "25",
+		"Type of trend": "50",
+		"FreQuarteruency": "75"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "10",
+		"Unit of Mesurements": "40",
+		"Type of trend": "60",
+		"FreQuarteruency": "90"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "20",
+		"Unit of Mesurements": "45",
+		"Type of trend": "70",
+		"FreQuarteruency": "105"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "20",
+		"Unit of Mesurements": "55",
+		"Type of trend": "80",
+		"FreQuarteruency": "120"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "20",
+		"Unit of Mesurements": "60",
+		"Type of trend": "90",
+		"FreQuarteruency": "135"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "30",
+		"Unit of Mesurements": "70",
+		"Type of trend": "100",
+		"FreQuarteruency": "150"
+	},
+	{
+		"KPI": "ID-KPI",
+		"KPI Name": "Month",
+		"Unit of Mesurements": "value"
+	},
+	{
+		"KPI": "K0001",
+		"KPI Name": "1-Jan-19",
+		"Unit of Mesurements": "3"
+	},
+	{
+		"KPI": "ID-KPI",
+		"KPI Name": "Month",
+		"Unit of Mesurements": "value"
+	},
+	{
+		"KPI": "K0002",
+		"KPI Name": "1-Jan-19",
+		"Unit of Mesurements": "10"
+	},
+	{
+		"KPI": "ID-KPI",
+		"KPI Name": "Month",
+		"Unit of Mesurements": "value"
+	},
+	{
+		"KPI": "K0003",
+		"KPI Name": "1-Jan-19",
+		"Unit of Mesurements": "0.00"
+	},
+	{
+		"KPI": "K0003",
+		"KPI Name": "1-Apr-19",
+		"Unit of Mesurements": "1.58"
+	},
+	{
+		"KPI": "ID-KPI",
+		"KPI Name": "Month",
+		"Unit of Mesurements": "value"
+	},
+	{
+		"KPI": "K0004",
+		"KPI Name": "1-Jan-19",
+		"Unit of Mesurements": "0"
+	},
+	{
+		"KPI": "K0004",
+		"KPI Name": "1-Apr-19",
+		"Unit of Mesurements": "1"
+	},
+	{
+		"KPI": "ID-KPI",
+		"KPI Name": "Month",
+		"Unit of Mesurements": "value"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "1-Jan-19",
+		"Unit of Mesurements": "1"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "1-Feb-19",
+		"Unit of Mesurements": "12"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "1-Mar-19",
+		"Unit of Mesurements": "15"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "1-Apr-19",
+		"Unit of Mesurements": "19"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "1-May-19",
+		"Unit of Mesurements": "19"
+	},
+	{
+		"KPI": "K0005",
+		"KPI Name": "1-Jun-19",
+		"Unit of Mesurements": "19"
+	},
+	{
+		"KPI": ""
+	}
+]
